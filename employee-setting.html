@@ -114,15 +114,16 @@
                 <div class="col-md-6">
                   <label
                     class="form-label"
-                    for="employeeLastName"
-                    >Họ<sup style="color: red"
+                    for="userLastName"
+                    >Last name<sup
+                      style="color: red"
                       >(*)</sup
                     ></label
                   >
                   <input
                     type="text"
                     class="form-control"
-                    id="employeeLastName"
+                    id="userLastName"
                     placeholder=""
                     value=""
                     required />
@@ -130,15 +131,15 @@
                 <div class="col-md-6">
                   <label
                     class="form-label"
-                    for="employeeName"
-                    >Tên<sup style="color: red"
+                    for="userName"
+                    >Name<sup style="color: red"
                       >(*)</sup
                     ></label
                   >
                   <input
                     type="text"
                     class="form-control"
-                    id="employeeName"
+                    id="userName"
                     placeholder=""
                     value=""
                     required />
@@ -148,104 +149,96 @@
                 <div class="col-md-12">
                   <label
                     class="form-label"
-                    for="employeePhonenumber"
-                    >Số điện thoại<sup
+                    for="userPhonenumber"
+                    >Phone number<sup
                       style="color: red"
                       >(*)</sup
                     ></label
                   ><input
                     type="text"
                     class="form-control"
-                    id="employeePhonenumber"
+                    id="userPhonenumber"
                     placeholder=""
                     value=""
                     required />
                 </div>
-
                 <div class="col-md-12">
                   <label
                     class="labels"
-                    for="employeeEmail"
+                    for="userEmail"
                     >Email<sup style="color: red"
                       >(*)</sup
                     ></label
                   ><input
                     type="text"
                     class="form-control"
-                    id="employeeEmail"
+                    id="userEmail"
                     placeholder=""
                     value=""
                     required />
                 </div>
                 <div class="col-md-12">
                   <label
-                    class="form-label"
-                    for="employeeJob"
-                    >Job</label
+                    class="labels"
+                    for="userAddress"
+                    >Address<sup
+                      style="color: red"
+                      >(*)</sup
+                    ></label
                   ><input
                     type="text"
                     class="form-control"
-                    id="employeeJob"
+                    id="userAddress"
                     placeholder=""
                     value=""
-                    disabled />
+                    required />
+                </div>
+                <div class="col-md-12">
+                  <label
+                    class="labels"
+                    for="userUsername"
+                    >Username</label
+                  ><input
+                    type="text"
+                    class="form-control"
+                    id="userUsername"
+                    placeholder=""
+                    value="" />
+                </div>
+                <br />
+                <div class="col-md-12">
+                  <label
+                    class="labels"
+                    for="userPassword"
+                    >Password</label
+                  ><input
+                    type="password"
+                    class="form-control"
+                    id="userPassword"
+                    placeholder=""
+                    value="" />
+                </div>
+                <div class="row mt-2">
+                  <div
+                    class="col-md-6 text-center">
+                    <a
+                      href="employee-change-password.html"
+                      class="btn btn-md btn-dark"
+                      type="button">
+                      Change Password
+                    </a>
+                  </div>
+                  <div
+                    class="col-md-6 text-center">
+                    <button
+                      class="btn btn-md btn-dark"
+                      type="button">
+                      Save
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="p-3 py-5">
-              <div
-                class="h3 d-flex justify-content-between align-items-center experience">
-                <span>Account</span>
-              </div>
-              <br />
-              <div class="col-md-12">
-                <label
-                  class="labels"
-                  for="employeeUsername"
-                  >Username</label
-                ><input
-                  type="text"
-                  class="form-control"
-                  id="employeeUsername"
-                  placeholder=""
-                  value="" />
-              </div>
-              <br />
-              <div class="col-md-12">
-                <label
-                  class="labels"
-                  for="employeePassword"
-                  >Old Password</label
-                ><input
-                  type="password"
-                  class="form-control"
-                  id="employeePassword"
-                  placeholder=""
-                  value="" />
-              </div>
-              <br />
-              <div class="col-md-12">
-                <label
-                  class="labels"
-                  for="confirmEmployeePassword"
-                  >New Password</label
-                ><input
-                  type="password"
-                  class="form-control"
-                  id="confirmEmployeePassword"
-                  placeholder=""
-                  value="" />
-              </div>
-            </div>
-          </div>
-          <div class="text-center">
-            <button
-              class="btn btn-lg btn-dark"
-              type="button">
-              Save
-            </button>
           </div>
         </div>
       </form>
