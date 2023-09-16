@@ -18,9 +18,7 @@
     <div
       class="container rounded-5 p-5 bg-light mt-5 shadow-lg"
       style="max-width: 50rem">
-      <h1 class="mb-5">
-        Đăng ký trở thành cộng tác viên
-      </h1>
+      <h1 class="mb-5">Become Partner</h1>
       <form>
         <div class="form-floating mb-3">
           <input
@@ -58,20 +56,34 @@
         </div>
         <div class="form-floating mb-3">
           <input
-            type="number"
+            type="date"
             class="form-control"
-            name="phoneNumber"
+            name="birthday"
             id="floatingInput"
-            placeholder="Tuổi"
+            placeholder="birthday"
             required />
-          <label for="floatingInput">Ages</label>
+          <label for="floatingInput"
+            >Birthday</label
+          >
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            name="idNum"
+            id="floatingInput"
+            placeholder=""
+            required />
+          <label for="floatingInput"
+            >ID number</label
+          >
         </div>
         <select
           class="form-select"
           name="city"
           required>
           <option selected value="">
-            Chọn nơi bạn muốn làm việc
+            Workplace
           </option>
           <option value="Hồ Chí Minh">
             Hồ Chí Minh
@@ -105,12 +117,12 @@
         <button
           type="submit"
           class="btn btn-dark w-100 btn-lg mt-3">
-          Gửi thông tin tuyển dụng
+          Submit
         </button>
       </form>
       <div class="text-center mt-3">
         <a class="link-dark" href="home.html"
-          ><small>Trở về trang chủ</small></a
+          ><small>Back to Homepage</small></a
         >
       </div>
     </div>

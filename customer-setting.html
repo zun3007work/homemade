@@ -146,6 +146,21 @@
                 <div class="col-md-12">
                   <label
                     class="form-label"
+                    for="userDob"
+                    >DoB<sup style="color: red"
+                      >(*)</sup
+                    ></label
+                  ><input
+                    type="date"
+                    class="form-control"
+                    id="userDob"
+                    placeholder=""
+                    value=""
+                    required />
+                </div>
+                <div class="col-md-12">
+                  <label
+                    class="form-label"
                     for="userPhonenumber"
                     >Phone number<sup
                       style="color: red"
@@ -190,62 +205,52 @@
                     value=""
                     required />
                 </div>
+                <div class="col-md-12">
+                  <label
+                    class="labels"
+                    for="userUsername"
+                    >Username</label
+                  ><input
+                    type="text"
+                    class="form-control"
+                    id="userUsername"
+                    placeholder=""
+                    value="" />
+                </div>
+                <br />
+                <div class="col-md-12">
+                  <label
+                    class="labels"
+                    for="userPassword"
+                    >Password</label
+                  ><input
+                    type="password"
+                    class="form-control"
+                    id="userPassword"
+                    placeholder=""
+                    value="" />
+                </div>
+                <div class="row mt-2">
+                  <div
+                    class="col-md-6 text-center">
+                    <a
+                      href="customer-change-password.html"
+                      class="btn btn-md btn-dark"
+                      type="button">
+                      Change Password
+                    </a>
+                  </div>
+                  <div
+                    class="col-md-6 text-center">
+                    <button
+                      class="btn btn-md btn-dark"
+                      type="button">
+                      Edit
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="p-3 py-5">
-              <div
-                class="h3 d-flex justify-content-between align-items-center experience">
-                <span>Account</span>
-              </div>
-              <br />
-              <div class="col-md-12">
-                <label
-                  class="labels"
-                  for="userUsername"
-                  >Username</label
-                ><input
-                  type="text"
-                  class="form-control"
-                  id="userUsername"
-                  placeholder=""
-                  value="" />
-              </div>
-              <br />
-              <div class="col-md-12">
-                <label
-                  class="labels"
-                  for="userPassword"
-                  >Old password</label
-                ><input
-                  type="password"
-                  class="form-control"
-                  id="userPassword"
-                  placeholder=""
-                  value="" />
-              </div>
-              <br />
-              <div class="col-md-12">
-                <label
-                  class="labels"
-                  for="confirmUserPassword"
-                  >New password</label
-                ><input
-                  type="password"
-                  class="form-control"
-                  id="confirmUserPassword"
-                  placeholder=""
-                  value="" />
-              </div>
-            </div>
-          </div>
-          <div class="text-center">
-            <button
-              class="btn btn-lg btn-dark"
-              type="button">
-              Save
-            </button>
           </div>
         </div>
       </form>
