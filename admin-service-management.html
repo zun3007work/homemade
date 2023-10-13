@@ -22,7 +22,7 @@
         text-align: right;
       }
     </style>
-    <title>Document</title>
+    <title>Service Management</title>
   </head>
   <body>
     <header>
@@ -94,22 +94,16 @@
         <div
           class="row d-flex justify-content-center align-items-center">
           <div class="col-md-12 col-xl-10">
+            <div class="h2">
+              Service Management
+            </div>
             <div class="card">
               <div class="card-header p-3">
                 <div class="mb-0 h3">
                   <a
-                    href=""
+                    href="admin-add-service.html"
                     class="btn btn-dark"
-                    data-bs-toggle="modal"
-                    data-bs-target="#addService"
                     >Add Service</a
-                  >
-                  <a
-                    href=""
-                    class="btn btn-dark"
-                    data-bs-toggle="modal"
-                    data-bs-target="#updateService"
-                    >Update Service</a
                   >
                 </div>
               </div>
@@ -276,148 +270,7 @@
         </div>
       </div>
     </section>
-    <div
-      class="modal fade"
-      id="addService"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5
-              class="modal-title"
-              id="exampleModalLabel">
-              Add Service
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label
-                  for="service-name"
-                  class="col-form-label"
-                  >Service name:</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="service-name" />
-              </div>
-              <div class="mb-3">
-                <label
-                  for="service-price"
-                  class="col-form-label"
-                  >Service price:</label
-                ><input
-                  type="number"
-                  class="form-control"
-                  id="service-price" />
-              </div>
-              <div class="mb-3">
-                <label
-                  for="service-description"
-                  class="col-form-label"
-                  >Service description:</label
-                ><input
-                  type="text"
-                  class="form-control"
-                  id="service-description" />
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal">
-              Close
-            </button>
-            <button
-              type="button"
-              class="btn btn-dark">
-              Add Serivce
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="modal fade"
-      id="updateService"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5
-              class="modal-title"
-              id="exampleModalLabel">
-              Update Service
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label
-                  for="service-name"
-                  class="col-form-label"
-                  >Service name:</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="service-name" />
-              </div>
-              <div class="mb-3">
-                <label
-                  for="service-price"
-                  class="col-form-label"
-                  >Service price:</label
-                ><input
-                  type="text"
-                  class="form-control"
-                  id="service-price" />
-              </div>
-              <div class="mb-3">
-                <label
-                  for="service-description"
-                  class="col-form-label"
-                  >Service description:</label
-                ><input
-                  type="number"
-                  class="form-control"
-                  id="service-description" />
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal">
-              Close
-            </button>
-            <button
-              type="button"
-              class="btn btn-dark">
-              Update Serivce
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
