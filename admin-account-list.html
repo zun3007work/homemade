@@ -11,6 +11,12 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
     <style>
       .disabled-link {
         pointer-events: none;
@@ -24,6 +30,7 @@
     </title>
   </head>
   <body>
+    <!--Header-->
     <header>
       <nav
         class="navbar navbar-expand-lg bg-body-tertiary fs-4">
@@ -88,6 +95,8 @@
         class="border-bottom border-secondary"
         style="border-style: solid 2px"></div>
     </header>
+    <!--Header-->
+    <!--Main content-->
     <section
       class="vh-100"
       style="background-color: #eee">
@@ -115,12 +124,13 @@
               </div>
               <div
                 class="card-body h-100"
-                data-mdb-perfect-scrollbar="true"
                 style="
                   position: relative;
                   height: 400px;
                 ">
-                <table class="table mb-0">
+                <table
+                  class="table mb-0"
+                  id="myTable">
                   <thead>
                     <tr>
                       <th class="h4" scope="col">
@@ -133,7 +143,7 @@
                   </thead>
                   <tbody>
                     <tr class="fw-normal">
-                      <th class="align-middle">
+                      <td class="align-middle">
                         <span class="ms-2"
                           ><a
                             href=""
@@ -141,7 +151,7 @@
                             >Alice Mayer</a
                           ></span
                         >
-                      </th>
+                      </td>
                       <td
                         class="align-middle td-btn">
                         <a
@@ -152,7 +162,7 @@
                       </td>
                     </tr>
                     <tr class="fw-normal">
-                      <th class="align-middle">
+                      <td class="align-middle">
                         <span class="ms-2">
                           <a
                             href=""
@@ -160,7 +170,7 @@
                             >Kate Moss</a
                           ></span
                         >
-                      </th>
+                      </td>
                       <td
                         class="align-middle td-btn">
                         <a
@@ -171,7 +181,7 @@
                       </td>
                     </tr>
                     <tr class="fw-normal">
-                      <th class="align-middle">
+                      <td class="align-middle">
                         <span class="ms-2"
                           ><a
                             href=""
@@ -179,7 +189,7 @@
                             >Danny McChain</a
                           ></span
                         >
-                      </th>
+                      </td>
                       <td
                         class="align-middle td-btn">
                         <a
@@ -190,7 +200,7 @@
                       </td>
                     </tr>
                     <tr class="fw-normal">
-                      <th class="align-middle">
+                      <td class="align-middle">
                         <span class="ms-2"
                           ><a
                             href=""
@@ -198,7 +208,7 @@
                             >Alexa Chung</a
                           ></span
                         >
-                      </th>
+                      </td>
                       <td
                         class="align-middle td-btn">
                         <a
@@ -209,7 +219,7 @@
                       </td>
                     </tr>
                     <tr class="fw-normal">
-                      <th class="align-middle">
+                      <td class="align-middle">
                         <span class="ms-2">
                           <a
                             href=""
@@ -217,7 +227,7 @@
                             >Ben Smith</a
                           ></span
                         >
-                      </th>
+                      </td>
                       <td
                         class="align-middle td-btn">
                         <a
@@ -228,7 +238,7 @@
                       </td>
                     </tr>
                     <tr class="fw-normal">
-                      <th class="align-middle">
+                      <td class="align-middle">
                         <span class="ms-2"
                           ><a
                             href=""
@@ -236,7 +246,178 @@
                             >Annie Hall</a
                           ></span
                         >
-                      </th>
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
+                      <td
+                        class="align-middle td-btn">
+                        <a
+                          href=""
+                          class="btn btn-success"
+                          >Active</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="fw-normal">
+                      <td class="align-middle">
+                        <span class="ms-2"
+                          ><a
+                            href=""
+                            class="btn btn-light"
+                            >Annie Hall</a
+                          ></span
+                        >
+                      </td>
                       <td
                         class="align-middle td-btn">
                         <a
@@ -255,7 +436,22 @@
         </div>
       </div>
     </section>
+    <!--Main content-->
+    <!-- Footer -->
+    <footer class="text-center text-dark">
+      <div class="text-center p-3">
+        © 2023 Homemade
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+      new DataTable('#myTable');
+    </script>
   </body>
 </html>
